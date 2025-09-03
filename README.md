@@ -1,25 +1,23 @@
 
-Installation information
+Alex's Foxified Caves
 =======
+by GauntRecluse, original mod by AlexModGuy  
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This is the repository for GauntRecluse's attempt at forward porting Alex's Caves to NeoForge and 1.21.1  
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Why?  
+Because Alex's Caves and its sister projects are, as far as I'm aware, not planned to be ported anytime soon.  
+So, I decided to make this mod, because you're best served by yourself, as the French saying goes.  
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### A note about Citadel  
+Citadel, the library mod used by Alex's Caves, is, I find, a herculean task to just go and port, and it is loaded with certain features that 
+will not be used by Alex's Caves. This repository will have its partial recreation of Citadel under a dedicated folder.  
+In the event that the partial port of Citadel gains a lot of weight, or that a demand for a dedicated port arises, it'll be separated into its own project.  
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Is this allowed?
+Alex's Caves is licensed under the LGPL v3.0 license, which this project will also be licensed under.  
+This allows ports and redistributions of modified versions of the project, given the same license is used.  
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+### Will this be different from the original?  
+Changes will need to be made internally to adapt to the loader and version jump, however, this port plans to be as true to 
+the original as it can be.
