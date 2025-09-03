@@ -1,0 +1,13 @@
+{
+  "itemGroup.foxified_caves": "Example Mod Tab",
+  "block.foxified_caves.example_block": "Example Block",
+  "item.foxified_caves.example_item": "Example Item",
+
+  "foxified_caves.configuration.title": "Alex's Foxified Caves Configs",
+  "foxified_caves.configuration.section.foxified_caves.common.toml": "Alex's Foxified Caves Configs",
+  "foxified_caves.configuration.section.foxified_caves.common.toml.title": "Alex's Foxified Caves Configs",
+  "foxified_caves.configuration.items": "Item List",
+  "foxified_caves.configuration.logDirtBlock": "Log Dirt Block",
+  "foxified_caves.configuration.magicNumberIntroduction": "Magic Number Text",
+  "foxified_caves.configuration.magicNumber": "Magic Number"
+}
