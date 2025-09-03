@@ -1,6 +1,5 @@
 package net.gauntrecluse.foxified_caves;
 
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -24,8 +23,6 @@ public class AlexsFoxifiedCavesClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
         AlexsFoxifiedCaves.LOGGER.info("HELLO FROM CLIENT SETUP");
-        AlexsFoxifiedCaves.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
